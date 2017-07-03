@@ -2,5 +2,5 @@
 # Usage:
 # $ p <password substring>
 function p 
-	gopass -c (gopass find $argv | fzf --height 30%)
+  gopass -c (gopass find $argv | fzf --height 30%)
 end
